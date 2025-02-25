@@ -9,6 +9,7 @@ use Symfony\Component\Routing\Attribute\Route;
 
 final class HomeController extends AbstractController
 {
+//    Deuxième manière de créer une route
     #[Route('/', name: 'home')]
     function index(Request $request): Response
     {

@@ -3,3 +3,10 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+
+# Première manière de créer une route
+#home:
+#    path: /
+#    controller: App\Controller\HomeController::index
+
+# Utiliser php bin/console debug:router pour voir les routes
